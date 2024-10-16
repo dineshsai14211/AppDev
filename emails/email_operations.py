@@ -17,3 +17,4 @@ def send_email(too_email=None, email_body=""):
         server.sendmail(sender, too_email, email_body)
 
 
+#email operations
